@@ -3,12 +3,12 @@ public class Search {
         int[] arr = { 1, 3, 5, 7, 9, 11, 13, 15 };
         int target = 7;
 
-        int result = binarySearch(arr, target);
+        int result = linearSearch(arr, target);
 
         System.out.println(result);
     }
 
-    public static int binarySearch(int[] arr, int target) {
+    public static int linearSearch(int[] arr, int target) {
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
